@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ai Là Triệu Phú - Địa Lí 9</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="stars-container"></div>
+		<div class="watermark">© 2026 AI LÀ TRIỆU PHÚ - NGÔ THỊ THƯ</div>
+		<!-- HTML5 Audio tags -->
+		<audio id="background" src='sound/background.mp3'></audio>
+		<audio id="rightsound" src='sound/right.mp3'></audio>
+		<audio id="wrongsound" src='sound/wrong.mp3'></audio>
+
+		<div class="app-container">
+			<!-- Before the game begins -->
+			<div id="pre-start" class="screen active">
+				<div class="welcome-box">
+					<img src="img/logo.jpg" id="welcome-logo" alt="Logo" />
+					<h1>AI LÀ TRIỆU PHÚ</h1>
+					<p class="subtitle">Chào mừng các em đến với thử thách kiến thức!</p>
+					<div class="selection-area">
+						<label for="problem-set">Chọn bộ câu hỏi:</label>
+						<select id="problem-set"></select>
+						<button id="start" class="btn-primary">BẮT ĐẦU CHƠI</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Shown when the player wins/loses -->
+			<div id="game-over" class="screen">
+				<div class="result-box">
+					<h2 id="result-text">KẾT THÚC!</h2>
+					<div id="final-money"></div>
+					<button onclick="location.reload()" class="btn-primary">CHƠI LẠI</button>
+				</div>
+			</div>
+
+			<!-- The actual game markup -->
+			<div id="game" class="screen">
+				<header>
+					<div class="lifelines">
+						<div id="fifty" class="lifeline-btn" title="50:50" data-bind="click: fifty">50:50</div>
+						<div id="phone-friend" class="lifeline-btn" title="Gọi người thân" data-bind="click: fadeOutOption">☏</div>
+						<div id="audience" class="lifeline-btn" title="Hỏi ý kiến khán giả" data-bind="click: fadeOutOption">👥</div>
+					</div>
+					<div class="current-money">
+						<span class="label">Tiền thưởng:</span>
+						<span class="value">$<span data-bind="text: formatMoney()"></span></span>
+					</div>
+				</header>
+
+				<main>
+					<div class="game-main-content">
+						<div class="question-section">
+							<div id="question-box">
+								<div class="q-header">CÂU HỎI <span data-bind="text: level()"></span>:</div>
+								<div class="content" data-bind="text: getQuestionText()"></div>
+							</div>
+
+							<div id="answer-box">
+								<div id="answer-one" class="answer-card" data-bind="click: function() { answerQuestion(0, $element.id) }">
+									<span class="prefix">A</span>
+									<span class="text" data-bind="text: getAnswerText(0)"></span>
+								</div>
+								<div id="answer-two" class="answer-card" data-bind="click: function() { answerQuestion(1, $element.id) }">
+									<span class="prefix">B</span>
+									<span class="text" data-bind="text: getAnswerText(1)"></span>
+								</div>
+								<div id="answer-three" class="answer-card" data-bind="click: function() { answerQuestion(2, $element.id) }">
+									<span class="prefix">C</span>
+									<span class="text" data-bind="text: getAnswerText(2)"></span>
+								</div>
+								<div id="answer-four" class="answer-card" data-bind="click: function() { answerQuestion(3, $element.id) }">
+									<span class="prefix">D</span>
+									<span class="text" data-bind="text: getAnswerText(3)"></span>
+								</div>
+							</div>
+						</div>
+
+						<aside class="levels-sidebar">
+							<ul id="levels">
+								<li data-bind="css: {active: level() == 15, current: level() == 15}" data-amt="1000000" data-lvl="15"><span>15</span> $1,000,000</li>
+								<li data-bind="css: {active: level() == 14, current: level() == 14}" data-amt="500000" data-lvl="14"><span>14</span> $500,000</li>
+								<li data-bind="css: {active: level() == 13, current: level() == 13}" data-amt="250000" data-lvl="13"><span>13</span> $250,000</li>
+								<li data-bind="css: {active: level() == 12, current: level() == 12}" data-amt="125000" data-lvl="12"><span>12</span> $125,000</li>
+								<li data-bind="css: {active: level() == 11, current: level() == 11}" data-amt="64000" data-lvl="11"><span>11</span> $64,000</li>
+								<li data-bind="css: {active: level() == 10, current: level() == 10}" data-amt="32000" data-lvl="10"><span>10</span> $32,000</li>
+								<li data-bind="css: {active: level() == 9, current: level() == 9}" data-amt="16000" data-lvl="9"><span>9</span> $16,000</li>
+								<li data-bind="css: {active: level() == 8, current: level() == 8}" data-amt="8000" data-lvl="8"><span>8</span> $8,000</li>
+								<li data-bind="css: {active: level() == 7, current: level() == 7}" data-amt="4000" data-lvl="7"><span>7</span> $4,000</li>
+								<li data-bind="css: {active: level() == 6, current: level() == 6}" data-amt="2000" data-lvl="6"><span>6</span> $2,000</li>
+								<li data-bind="css: {active: level() == 5, current: level() == 5}" data-amt="1000" data-lvl="5"><span>5</span> $1,000</li>
+								<li data-bind="css: {active: level() == 4, current: level() == 4}" data-amt="500" data-lvl="4"><span>4</span> $500</li>
+								<li data-bind="css: {active: level() == 3, current: level() == 3}" data-amt="300" data-lvl="3"><span>3</span> $300</li>
+								<li data-bind="css: {active: level() == 2, current: level() == 2}" data-amt="200" data-lvl="2"><span>2</span> $200</li>
+								<li data-bind="css: {active: level() == 1, current: level() == 1}" data-amt="100" data-lvl="1"><span>1</span> $100</li>
+							</ul>
+						</aside>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<!-- Script inclusion -->
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/knockout-3.0.0.js"></script>
+		<script type="text/javascript" src="js/millionaire.js"></script>
+	</body>
+</html>

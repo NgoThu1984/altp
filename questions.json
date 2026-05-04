@@ -1,0 +1,314 @@
+{
+	"games" : [
+		{
+			"title": "Địa lí 9 - Chủ đề 2",
+		    "questions" : [
+		        {
+		            "question" : "Vùng nào được mệnh danh là một trong những cái nôi của nền văn minh lúa nước?",
+		            "content" : [
+		                "Châu thổ sông Cửu Long.",
+		                "Châu thổ sông Hồng.",
+		                "Đông Nam Bộ.",
+		                "Trung du và miền núi Bắc Bộ."
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "Loại hình dân ca, sân khấu truyền thống vùng châu thổ sông Hồng là",
+		            "content" : [
+		                "Các điệu lí.",
+		                "Quan họ, hát xoan, chèo.",
+		                "Đờn ca tài tử.",
+		                "Hò."
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "Đặc điểm làng xưa ở vùng châu thổ sông Hồng là:",
+		            "content" : [
+		                "nhà mái ngói, cổng làng, đình làng.",
+		                "nhà ống, nhà mái ngói, nhà sàn.",
+		                "cổng làng, đình làng, chùa làng.",
+		                "cổng làng, đình làng, nhà ven sông."
+		            ],
+		            "correct" : 0
+		        },
+		        {
+		            "question" : "Nghề đóng ghe xuồng là nghề truyền thống ở tỉnh nào của Châu thổ sông Cửu Long?",
+		            "content" : [
+		                "Đồng Tháp.",
+		                "Kiên Giang.",
+		                "An Giang.",
+		                "Hậu Giang."
+		            ],
+		            "correct" : 3
+		        },
+		        {
+		            "question" : "Đâu không phải là tác động của biến đổi khí hậu đối với xã hội?",
+		            "content" : [
+		                "Dịch bệnh gia tăng, tác động tiêu cực đến sức khỏe con người.",
+		                "Làm mất địa bàn cư trú của người dân ven biển.",
+		                "Thiếu nguồn nước và năng lượng cung cấp cho hoạt động sản xuất công nghiệp.",
+		                "Gây thiếu nước sinh hoạt trầm trọng."
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "Biến đổi khí hậu làm số ngày nắng nóng trung bình năm ở hai vùng châu thổ có xu hướng:",
+		            "content" : [
+		                "giảm nhẹ và giảm số lượng các đợt hạn.",
+		                "tăng nhanh và tăng số lượng các đợt hạn.",
+		                "tăng nhẹ và giảm số lượng các đợt hạn.",
+		                "giảm nhanh và biến động theo mùa."
+		            ],
+		            "correct" : 1
+		        },
+		        {
+		            "question" : "Ý nghĩa của lễ Kỳ yên ở các đình làng vùng châu thổ sông Cửu Long là gì?",
+		            "content" : [
+		                "Cầu một năm sung túc.",
+		                "Tưởng nhớ những người có công khai khẩn làng mạc.",
+		                "Cầu bình an, hạnh phúc.",
+		                "Cầu mưa thuận gió hòa, tưởng nhớ những người có công khai khẩn làng mạc."
+		            ],
+		            "correct" : 2
+		        },
+		        {
+		            "question" : "Để thích ứng biến đổi khí hậu ở vùng châu thổ sông Cửu Long cần làm gì?",
+		            "content" : [
+		                "Xây dựng hệ thống bờ ao, chống sạt lở bờ sông, biển.",
+		                "Điều tiết nguồn nước từ các công trình thủy điện ở thượng lưu.",
+		                "Hạn chế phát thải công nghiệp.",
+		                "Thay đổi thời vụ sản xuất (vụ đông)."
+		            ],
+		            "correct" : 0
+		        },
+				{
+				    "correct": 0,
+				    "content": [
+				        "Kelvin",
+				        "Celsius",
+				        "Centigrade",
+				        "Fahrenheit"
+				    ],
+				    "question": "What is the S.I. unit of temperature?"
+				},
+				{
+				    "correct": 2,
+				    "content": [
+				        "15th April",
+				        "12th December",
+				        "1st May",
+				        "1st August"
+				    ],
+				    "question": "When is the International Workers' Day?"
+				},
+				{
+				    "correct": 0,
+				    "content": [
+				        "coins",
+				        "numbers",
+				        "stamps",
+				        "space"
+				    ],
+				    "question": "Numismatics is the study of"
+				},
+				{
+				    "correct": 1,
+				    "content": [
+				        "Nitrogen",
+				        "Oxygen",
+				        "Water",
+				        "Helium"
+				    ],
+				    "question": "What is the second most common gas in the air?"
+				},
+				{
+				    "correct": 3,
+				    "content": [
+				        "March",
+				        "September",
+				        "June",
+				        "Feburary"
+				    ],
+				    "question": "Which month has only 28 days (unless it's a leap year)?"
+				},
+				{
+				    "correct": 2,
+				    "content": [
+				        "energy",
+				        "speed",
+				        "distance",
+				        "intensity"
+				    ],
+				    "question": "Light Year is related to"
+				},
+				{
+				    "correct": 1,
+				    "content": [
+				        "Lake Union",
+				        "Lake Superior",
+				        "Lake Largest",
+				        "Lake Goodwin"
+				    ],
+				    "question": "What is the name of the largest freshwater lake in the world?"
+				}
+		    ]
+		},
+		{
+			"title": "Lịch sử 9 - Bài 22",
+			"questions": [
+				{
+					"question": "Từ sau Chiến tranh thế giới thứ hai đến nay, thế giới diễn ra cuộc cách mạng khoa học – kĩ thuật nào?",
+					"content": [
+						"Cách mạng khoa học – kĩ thuật lần thứ nhất và lần thứ hai.",
+						"Cách mạng khoa học – kĩ thuật lần thứ ba.",
+						"Cách mạng khoa học – kĩ thuật lần thứ tư.",
+						"Cách mạng khoa học – kĩ thuật lần thứ ba và lần thứ tư."
+					],
+					"correct": 3
+				},
+				{
+					"question": "Nội dung nào là thành tựu của cách mạng khoa học – kĩ thuật trong lĩnh vực sinh học?",
+					"content": [
+						"Tạo ra được những vật liệu mới chuyên dụng với tính năng vượt trội như: pô-li-me siêu dẻo.",
+						"Đạt được những bước tiến dài về công nghệ di truyền, công nghệ tế bào, công nghệ vi sinh.",
+						"Có những bước tiến vượt trội với sự xuất hiện của các loại máy bay siêu âm khổng lồ.",
+						"Đạt được nhiều thành tựu lớn trong các ngành Toán học, Vật lí, Sinh học, Hóa học."
+					],
+					"correct": 1
+				},
+				{
+					"question": "Nội dung nào dưới đây không phải là tác động tiêu cực của cách mạng khoa học – kĩ thuật đối với Việt Nam?",
+					"content": [
+						"Làm thay đổi phương thức quản lí Nhà nước, mô hình sản xuất kinh doanh.",
+						"Dẫn đến nguy cơ về an ninh, chính trị do thông tin bảo mật bị đánh cắp, phát tán.",
+						"Làm mất an toàn xã hội khi thông tin bảo mật bị đánh cắp, phát tán.",
+						"Dễ bị biến thành nơi gia công, lắp ráp đơn giản của các nước lớn."
+					],
+					"correct": 0
+				},
+				{
+					"question": "Cuộc cách mạng khoa học – kĩ thuật đem lại thời cơ lớn nhất cho Việt Nam trong phát triển kinh tế là:",
+					"content": [
+						"Xây dựng, hoàn thiện thể chế nền kinh thế thị trường định hướng xã hội chủ nghĩa.",
+						"Trở thành công xưởng, gia công, lắp ráp đơn giản của thế giới.",
+						"Thúc đẩy phát triển kinh tế theo hướng hiện đại, hội nhập với khu vực và thế giới.",
+						"Tăng trưởng kinh tế luôn ở mức cao nhất."
+					],
+					"correct": 2
+				},
+				{
+					"question": "Thành tựu nào không thuộc lĩnh vực công nghệ số:",
+					"content": [
+						"Dữ liệu lớn (Big Data).",
+						"Điện toán đám mây (Cloud).",
+						"Công nghệ na-nô.",
+						"Trí tuệ nhân tạo (AI)."
+					],
+					"correct": 2
+				},
+				{
+					"question": "Toàn cầu hóa là gì?",
+					"content": [
+						"Sự thay đổi phương thức quản lí Nhà nước, mô hình sản xuất kinh doanh.",
+						"Sự liên kết, hội nhập của các quốc gia, khu vực trên toàn thế giới trong tất cả các lĩnh vực.",
+						"Sự phát triển và ảnh hưởng ngày càng gia tăng của các tổ chức khu vực.",
+						"Sự hội nhập và phụ thuộc lẫn nhau về kinh tế giữa các quốc gia."
+					],
+					"correct": 1
+				},
+				{
+					"question": "Yếu tố nào là quan trọng nhất thúc đẩy sự gia tăng mạnh mẽ của xu hướng toàn cầu hóa từ thập niên 80 của thế kỉ XX?",
+					"content": [
+						"Chiến tranh lạnh chấm dứt.",
+						"Sự phát triển của cuộc cách mạng khoa học – kĩ thuật.",
+						"Sự sụp đổ của Liên Xô.",
+						"Sự mở rộng và phát triển của EU và ASEAN."
+					],
+					"correct": 1
+				},
+				{
+					"question": "Nội dung nào là biểu hiện của toàn cầu hóa về kinh tế?",
+					"content": [
+						"Sự chia sẻ, tăng cường giao lưu, trao đổi, thâm nhập lẫn nhau của các nền văn hóa.",
+						"Sự phát triển và ảnh hưởng gia tăng của các tổ chức khu vực như EU, ASEAN.",
+						"Sự gia tăng hoạt động đi lại, trao đổi thông tin trên phạm vi toàn cầu.",
+						"Phát triển nhanh chóng của quan hệ thương mại quốc tế gắn với các tập đoàn xuyên quốc gia."
+					],
+					"correct": 3
+				},
+				{
+					"question": "Nội dung nào thể hiện tác động tiêu cực của toàn cầu hóa đối với thế giới?",
+					"content": [
+						"Thúc đẩy nhanh sự hình thành thị trường kinh tế toàn cầu.",
+						"Tạo nên sự liên kết ngày càng chặt chẽ giữa các lực lượng.",
+						"Gia tăng sự phụ thuộc lẫn nhau, kéo dài khoảng cách giàu nghèo, ô nhiễm môi trường.",
+						"Gia gia giao lưu, trao đổi văn hóa giữa các quốc gia."
+					],
+					"correct": 2
+				},
+				{
+					"question": "Nội dung nào thể hiện cơ hội của toàn cầu hóa đem lại Việt Nam về chính trị?",
+					"content": [
+						"Tham gia và thể hiện vai trò tích cực trong các tổ chức khu vực (ASEAN), quốc tế (UN).",
+						"Liên kết chặt chẽ giữa các lực lượng trong việc giải quyết các vấn đề toàn cầu.",
+						"Tiếp cận vốn đầu tư nước ngoài, trình độ khoa học – kĩ thuật tiên tiến.",
+						"Mở rộng giao lưu và tiếp thu những tinh hoa văn hóa của nhân loại."
+					],
+					"correct": 0
+				},
+				{
+					"question": "Đánh giá nào không đúng về tác động tích cực của toàn cầu hóa đối với thế giới?",
+					"content": [
+						"Thúc đẩy sự hình thành thị trường kinh tế toàn cầu.",
+						"Gia tăng chênh lệch giàu – nghèo giữa các quốc gia.",
+						"Đẩy mạnh xã hội hóa lực lượng sản xuất.",
+						"Định hướng xu hướng văn hóa toàn cầu."
+					],
+					"correct": 1
+				},
+				{
+					"question": "Nội dung nào không phải là thách thức của toàn cầu hóa đặt ra cho Việt Nam?",
+					"content": [
+						"Mở rộng hoạt động thương mại và xuất khẩu lao động.",
+						"Gia tăng cạnh tranh trong hoạt động kinh tế, thương mại.",
+						"Hạn chế cơ hội tiếp cận vốn đầu tư nước ngoài.",
+						"Xói mòn bản sắc văn hóa truyền thống."
+					],
+					"correct": 0
+				},
+				{
+					"question": "Trong cuộc cách mạng khoa học - kỹ thuật hiện đại, mọi phát minh kỹ thuật đều bắt nguồn từ?",
+					"content": [
+						"Sản xuất",
+						"Nghiên cứu khoa học",
+						"Thực tiễn cuộc sống",
+						"Nhu cầu của con người"
+					],
+					"correct": 1
+				},
+				{
+					"question": "Đặc điểm lớn nhất của cuộc cách mạng khoa học - kĩ thuật sau Chiến tranh thế giới thứ hai là?",
+					"content": [
+						"Khoa học trở thành lực lượng sản xuất trực tiếp",
+						"Thời gian từ phát minh đến ứng dụng rút ngắn",
+						"Các phát minh bùng nổ nhanh chóng",
+						"Khoa học đi trước mở đường cho kỹ thuật"
+					],
+					"correct": 0
+				},
+				{
+					"question": "Quốc gia khởi đầu cuộc cách mạng khoa học - kĩ thuật hiện đại là?",
+					"content": [
+						"Anh",
+						"Nhật Bản",
+						"Liên Xô",
+						"Mỹ"
+					],
+					"correct": 3
+				}
+			]
+		}
+	]
+}
