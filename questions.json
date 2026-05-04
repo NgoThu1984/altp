@@ -82,77 +82,7 @@
 		                "Thay đổi thời vụ sản xuất (vụ đông)."
 		            ],
 		            "correct" : 0
-		        },
-				{
-				    "correct": 0,
-				    "content": [
-				        "Kelvin",
-				        "Celsius",
-				        "Centigrade",
-				        "Fahrenheit"
-				    ],
-				    "question": "What is the S.I. unit of temperature?"
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "15th April",
-				        "12th December",
-				        "1st May",
-				        "1st August"
-				    ],
-				    "question": "When is the International Workers' Day?"
-				},
-				{
-				    "correct": 0,
-				    "content": [
-				        "coins",
-				        "numbers",
-				        "stamps",
-				        "space"
-				    ],
-				    "question": "Numismatics is the study of"
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "Nitrogen",
-				        "Oxygen",
-				        "Water",
-				        "Helium"
-				    ],
-				    "question": "What is the second most common gas in the air?"
-				},
-				{
-				    "correct": 3,
-				    "content": [
-				        "March",
-				        "September",
-				        "June",
-				        "Feburary"
-				    ],
-				    "question": "Which month has only 28 days (unless it's a leap year)?"
-				},
-				{
-				    "correct": 2,
-				    "content": [
-				        "energy",
-				        "speed",
-				        "distance",
-				        "intensity"
-				    ],
-				    "question": "Light Year is related to"
-				},
-				{
-				    "correct": 1,
-				    "content": [
-				        "Lake Union",
-				        "Lake Superior",
-				        "Lake Largest",
-				        "Lake Goodwin"
-				    ],
-				    "question": "What is the name of the largest freshwater lake in the world?"
-				}
+		        }
 		    ]
 		},
 		{
